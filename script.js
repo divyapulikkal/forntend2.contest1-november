@@ -75,9 +75,9 @@ function updateJohnsProfession() {
 function getTotalProfessions() {
   const developerCount = data.filter(person => person.profession === 'developer').length;
   const adminCount = data.filter(person => person.profession === 'admin').length;
-  const managerCount = data.filter(person => person.profession === 'manager').length;
+  
 
   console.log('Total Developers:', developerCount);
   console.log('Total Admins:', adminCount);
-  console.log('Total Manager:', managerCount);
+  
 }
